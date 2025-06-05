@@ -1,0 +1,336 @@
+permission,constantValue,apiLevel,protectionLevel,description
+ACCEPT_HANDOVER,"android.permission.ACCEPT_HANDOVER",28,dangerous,
+ACCESS_BACKGROUND_LOCATION,"android.permission.ACCESS_BACKGROUND_LOCATION",29,dangerous,"This is a hard restricted permission which cannot be held by an app until the installer on record allowlists the permission. For more details see PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set) ."
+ACCESS_BLOBS_ACROSS_USERS,"android.permission.ACCESS_BLOBS_ACROSS_USERS",31,,Allows an application to access data blobs across users.
+ACCESS_CHECKIN_PROPERTIES,"android.permission.ACCESS_CHECKIN_PROPERTIES",1,,"Allows read/write access to the ""properties"" table in the checkin database, to change values that get uploaded. Not for use by third-party applications. Not for use by third-party applications."
+ACCESS_COARSE_LOCATION,"android.permission.ACCESS_COARSE_LOCATION",1,dangerous,
+ACCESS_FINE_LOCATION,"android.permission.ACCESS_FINE_LOCATION",1,dangerous,
+ACCESS_HIDDEN_PROFILES,"android.permission.ACCESS_HIDDEN_PROFILES",35,normal,
+ACCESS_LOCATION_EXTRA_COMMANDS,"android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",1,normal,
+ACCESS_MEDIA_LOCATION,"android.permission.ACCESS_MEDIA_LOCATION",29,dangerous,
+ACCESS_NETWORK_STATE,"android.permission.ACCESS_NETWORK_STATE",1,normal,
+ACCESS_NOTIFICATION_POLICY,"android.permission.ACCESS_NOTIFICATION_POLICY",23,normal,
+ACCESS_WIFI_STATE,"android.permission.ACCESS_WIFI_STATE",1,normal,
+ACCOUNT_MANAGER,"android.permission.ACCOUNT_MANAGER",5,,Allows applications to call into AccountAuthenticators. Not for use by third-party applications. Not for use by third-party applications.
+ACTIVITY_RECOGNITION,"android.permission.ACTIVITY_RECOGNITION",29,dangerous,
+ADD_VOICEMAIL,"com.android.voicemail.permission.ADD_VOICEMAIL",14,dangerous,
+ANSWER_PHONE_CALLS,"android.permission.ANSWER_PHONE_CALLS",26,dangerous,
+APPLY_PICTURE_PROFILE,"android.permission.APPLY_PICTURE_PROFILE",36,,"Allows an app to apply a ERROR(/MediaQualityManager.PictureProfile) to a layer via ERROR(/MediaCodec.PARAMETER_KEY_PICTURE_PROFILE) and, additionally, system apps via ERROR(/SurfaceControl.Transaction#setPictureProfileHandle) ."
+BATTERY_STATS,"android.permission.BATTERY_STATS",1,signature|privileged|development,
+BIND_ACCESSIBILITY_SERVICE,"android.permission.BIND_ACCESSIBILITY_SERVICE",16,signature,
+BIND_APPWIDGET,"android.permission.BIND_APPWIDGET",3,,"Allows an application to tell the AppWidget service which application can access AppWidget's data.The normal user flow is that a user picks an AppWidget to go into a particular host, thereby giving that  host application access to the private data from the AppWidget app. An application that has this permission should honor that contract. Not for use by third-party applications. Not for use by third-party applications."
+BIND_APP_FUNCTION_SERVICE,"android.permission.BIND_APP_FUNCTION_SERVICE",36,signature,
+BIND_AUTOFILL_SERVICE,"android.permission.BIND_AUTOFILL_SERVICE",26,signature,
+BIND_CALL_REDIRECTION_SERVICE,"android.permission.BIND_CALL_REDIRECTION_SERVICE",29,signature|privileged,
+BIND_CARRIER_MESSAGING_CLIENT_SERVICE,"android.permission.BIND_CARRIER_MESSAGING_CLIENT_SERVICE",29,signature,
+BIND_CARRIER_MESSAGING_SERVICE,"android.permission.BIND_CARRIER_MESSAGING_SERVICE",22,,"This constant was deprecated in API level 23. Use BIND_CARRIER_SERVICES instead This constant was deprecated  in API level 23. Use BIND_CARRIER_SERVICES instead"
+BIND_CARRIER_SERVICES,"android.permission.BIND_CARRIER_SERVICES",23,signature|privileged,
+BIND_CHOOSER_TARGET_SERVICE,"android.permission.BIND_CHOOSER_TARGET_SERVICE",23,signature,"This constant was deprecated in API level 30. For publishing direct share targets, please follow the instructions in https://developer.android.com/training/sharing/receive.html#providing-direct-share-targets instead."
+BIND_COMPANION_DEVICE_SERVICE,"android.permission.BIND_COMPANION_DEVICE_SERVICE",31,,"Must be required by any CompanionDeviceService to ensure that only the system can bind to it."
+BIND_CONDITION_PROVIDER_SERVICE,"android.permission.BIND_CONDITION_PROVIDER_SERVICE",24,signature,
+BIND_CONTROLS,"android.permission.BIND_CONTROLS",30,,Allows SystemUI to request third party controls. Should only be requested by the System and required by ControlsProviderService declarations. Should only be requested by the System and required by ControlsProviderService declarations.
+BIND_CREDENTIAL_PROVIDER_SERVICE,"android.permission.BIND_CREDENTIAL_PROVIDER_SERVICE",34,signature,
+BIND_DEVICE_ADMIN,"android.permission.BIND_DEVICE_ADMIN",8,signature,
+BIND_DREAM_SERVICE,"android.permission.BIND_DREAM_SERVICE",21,signature,
+BIND_INCALL_SERVICE,"android.permission.BIND_INCALL_SERVICE",23,signature|privileged,
+BIND_INPUT_METHOD,"android.permission.BIND_INPUT_METHOD",3,signature,
+BIND_MIDI_DEVICE_SERVICE,"android.permission.BIND_MIDI_DEVICE_SERVICE",23,signature,
+BIND_NFC_SERVICE,"android.permission.BIND_NFC_SERVICE",19,signature,
+BIND_NOTIFICATION_LISTENER_SERVICE,"android.permission.BIND_NOTIFICATION_LISTENER_SERVICE",18,signature,
+BIND_PRINT_SERVICE,"android.permission.BIND_PRINT_SERVICE",19,signature,
+BIND_QUICK_ACCESS_WALLET_SERVICE,"android.permission.BIND_QUICK_ACCESS_WALLET_SERVICE",30,signature,
+BIND_QUICK_SETTINGS_TILE,"android.permission.BIND_QUICK_SETTINGS_TILE",24,,"Allows an application to bind to third party quick settings tiles. Should only be requested by the System, should be required by TileService declarations. Should only be requested by the System, should be required by TileService declarations."
+BIND_REMOTEVIEWS,"android.permission.BIND_REMOTEVIEWS",11,signature|privileged,
+BIND_SCREENING_SERVICE,"android.permission.BIND_SCREENING_SERVICE",24,signature|privileged,
+BIND_TELECOM_CONNECTION_SERVICE,"android.permission.BIND_TELECOM_CONNECTION_SERVICE",23,signature|privileged,
+BIND_TEXT_SERVICE,"android.permission.BIND_TEXT_SERVICE",14,signature,
+BIND_TV_AD_SERVICE,"android.permission.BIND_TV_AD_SERVICE",36,signature|privileged,
+BIND_TV_INPUT,"android.permission.BIND_TV_INPUT",21,signature|privileged,
+BIND_TV_INTERACTIVE_APP,"android.permission.BIND_TV_INTERACTIVE_APP",33,signature|privileged,
+BIND_VISUAL_VOICEMAIL_SERVICE,"android.permission.BIND_VISUAL_VOICEMAIL_SERVICE",26,signature|privileged,
+BIND_VOICE_INTERACTION,"android.permission.BIND_VOICE_INTERACTION",21,signature,
+BIND_VPN_SERVICE,"android.permission.BIND_VPN_SERVICE",14,signature,
+BIND_VR_LISTENER_SERVICE,"android.permission.BIND_VR_LISTENER_SERVICE",24,signature,
+BIND_WALLPAPER,"android.permission.BIND_WALLPAPER",8,signature|privileged,
+BLUETOOTH,"android.permission.BLUETOOTH",1,normal,
+BLUETOOTH_ADMIN,"android.permission.BLUETOOTH_ADMIN",1,normal,
+BLUETOOTH_ADVERTISE,"android.permission.BLUETOOTH_ADVERTISE",31,dangerous,
+BLUETOOTH_CONNECT,"android.permission.BLUETOOTH_CONNECT",31,dangerous,
+BLUETOOTH_PRIVILEGED,"android.permission.BLUETOOTH_PRIVILEGED",19,,"Allows applications to pair bluetooth devices without user interaction, and to allow or disallow phonebook access or message access. Not for use by third-party applications. Not for use by third-party applications."
+BLUETOOTH_SCAN,"android.permission.BLUETOOTH_SCAN",31,dangerous,
+BODY_SENSORS,"android.permission.BODY_SENSORS",20,dangerous,
+BODY_SENSORS_BACKGROUND,"android.permission.BODY_SENSORS_BACKGROUND",33,dangerous,"This is a hard restricted permission which cannot be held by an app until the installer on record allowlists the permission. For more details see PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set) ."
+BROADCAST_PACKAGE_REMOVED,"android.permission.BROADCAST_PACKAGE_REMOVED",1,,"Allows an application to broadcast a notification that an application package has been removed. Not for use by third-party applications. Not for use by third-party applications."
+BROADCAST_SMS,"android.permission.BROADCAST_SMS",2,,Allows an application to broadcast an SMS receipt notification. Not for use by third-party applications. Not for use by third-party applications."
+BROADCAST_STICKY,"android.permission.BROADCAST_STICKY",1,normal,
+BROADCAST_WAP_PUSH,"android.permission.BROADCAST_WAP_PUSH",2,,Allows an application to broadcast a WAP PUSH receipt notification. Not for use by third-party applications. Not for use by third-party applications.
+CALL_COMPANION_APP,"android.permission.CALL_COMPANION_APP",29,normal,
+CALL_PHONE,"android.permission.CALL_PHONE",1,dangerous,"Note: An app holding this permission can also call carrier MMI codes to change settings such as call forwarding or call waiting preferences."
+CALL_PRIVILEGED,"android.permission.CALL_PRIVILEGED",1,,"Allows an application to call any phone number, including emergency numbers, without going through the Dialer user interface for the user to confirm the call being placed. Not for use by third-party applications. Not for use by third-party applications."
+CAMERA,"android.permission.CAMERA",1,dangerous,"This will automatically enforce the uses-feature manifest element for all camera features. If you do not require all camera features or can properly operate if a camera is not available, then you must modify your manifest as appropriate in order to install on devices that don't support all camera features."
+CAPTURE_AUDIO_OUTPUT,"android.permission.CAPTURE_AUDIO_OUTPUT",19,,"Allows an application to capture audio output.  Use the CAPTURE_MEDIA_OUTPUT permission if only the USAGE_UNKNOWN ), USAGE_MEDIA ) or USAGE_GAME ) usages are intended to be captured. Not for use by third-party applications. Not for use by third-party applications."
+CHANGE_COMPONENT_ENABLED_STATE,"android.permission.CHANGE_COMPONENT_ENABLED_STATE",1,,"Allows an application to change whether an application component (other than its own) is  enabled or not. Not for use by third-party applications. Not for use by third-party applications."
+CHANGE_CONFIGURATION,"android.permission.CHANGE_CONFIGURATION",1,signature|privileged|development,
+CHANGE_NETWORK_STATE,"android.permission.CHANGE_NETWORK_STATE",1,normal,
+CHANGE_WIFI_MULTICAST_STATE,"android.permission.CHANGE_WIFI_MULTICAST_STATE",4,normal,
+CHANGE_WIFI_STATE,"android.permission.CHANGE_WIFI_STATE",1,normal,
+CLEAR_APP_CACHE,"android.permission.CLEAR_APP_CACHE",1,signature|privileged,
+CONFIGURE_WIFI_DISPLAY,"android.permission.CONFIGURE_WIFI_DISPLAY",34,,"Allows an application to configure and connect to Wifi displays"
+CONTROL_LOCATION_UPDATES,"android.permission.CONTROL_LOCATION_UPDATES",1,,"Allows enabling/disabling location update notifications from the radio. Not for use by third-party applications. Not for use by third-party applications."
+CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS,"android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS",34,normal,
+CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS,"android.permission.CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS",34,normal,
+CREDENTIAL_MANAGER_SET_ORIGIN,"android.permission.CREDENTIAL_MANAGER_SET_ORIGIN",34,normal,
+DELETE_CACHE_FILES,"android.permission.DELETE_CACHE_FILES",1,signature|privileged,
+DELETE_PACKAGES,"android.permission.DELETE_PACKAGES",1,,"Not for use by third-party applications. Starting in Build.VERSION_CODES.N , user confirmation is requested  when the application deleting the package is not the same application that installed the  package. Starting in Build.VERSION_CODES.N , user confirmation is requestedwhen the application deleting the package is not the same application that installed the package."
+DELIVER_COMPANION_MESSAGES,"android.permission.DELIVER_COMPANION_MESSAGES",33,,Allows an application to deliver companion messages to system
+DETECT_SCREEN_CAPTURE,"android.permission.DETECT_SCREEN_CAPTURE",34,normal,
+DETECT_SCREEN_RECORDING,"android.permission.DETECT_SCREEN_RECORDING",35,normal,
+DIAGNOSTIC,"android.permission.DIAGNOSTIC",1,,Allows applications to RW to diagnostic resources. Not for use by third-party applications. Not for use by third-party applications.
+DISABLE_KEYGUARD,"android.permission.DISABLE_KEYGUARD",1,normal,
+DUMP,"android.permission.DUMP",1,,Allows an application to retrieve state dump information from system services. Not for use by third-party applications. Not for use by third-party applications.
+ENFORCE_UPDATE_OWNERSHIP,"android.permission.ENFORCE_UPDATE_OWNERSHIP",34,normal,
+EXECUTE_APP_ACTION,"android.permission.EXECUTE_APP_ACTION",34,internal|role,
+EXECUTE_APP_FUNCTIONS,"android.permission.EXECUTE_APP_FUNCTIONS",36,internal|privileged,
+EXPAND_STATUS_BAR,"android.permission.EXPAND_STATUS_BAR",1,normal,
+FACTORY_TEST,"android.permission.FACTORY_TEST",1,,"Run as a manufacturer test application, running as the root user. Only available when the device is running in manufacturer test mode. Not for use by third-party applications. Not for use by third-party applications."
+FOREGROUND_SERVICE,"android.permission.FOREGROUND_SERVICE",28,normal,
+FOREGROUND_SERVICE_CAMERA,"android.permission.FOREGROUND_SERVICE_CAMERA",34,normal|instant,
+FOREGROUND_SERVICE_CONNECTED_DEVICE,"android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",34,normal|instant,
+FOREGROUND_SERVICE_DATA_SYNC,"android.permission.FOREGROUND_SERVICE_DATA_SYNC",34,normal|instant,
+FOREGROUND_SERVICE_HEALTH,"android.permission.FOREGROUND_SERVICE_HEALTH",34,normal|instant,
+FOREGROUND_SERVICE_LOCATION,"android.permission.FOREGROUND_SERVICE_LOCATION",34,normal|instant,
+FOREGROUND_SERVICE_MEDIA_PLAYBACK,"android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",34,normal|instant,
+FOREGROUND_SERVICE_MEDIA_PROCESSING,"android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING",35,normal|instant,
+FOREGROUND_SERVICE_MEDIA_PROJECTION,"android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION",34,normal|instant,
+FOREGROUND_SERVICE_MICROPHONE,"android.permission.FOREGROUND_SERVICE_MICROPHONE",34,normal|instant,
+FOREGROUND_SERVICE_PHONE_CALL,"android.permission.FOREGROUND_SERVICE_PHONE_CALL",34,normal|instant,
+FOREGROUND_SERVICE_REMOTE_MESSAGING,"android.permission.FOREGROUND_SERVICE_REMOTE_MESSAGING",34,normal|instant,
+FOREGROUND_SERVICE_SPECIAL_USE,"android.permission.FOREGROUND_SERVICE_SPECIAL_USE",34,normal|appop|instant,
+FOREGROUND_SERVICE_SYSTEM_EXEMPTED,"android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED",34,normal|instant,
+GET_ACCOUNTS,"android.permission.GET_ACCOUNTS",1,dangerous,"Note: Beginning with Android 6.0 (API level 23), if an app shares the signature of the authenticator that manages an account, it does not need ""GET_ACCOUNTS"" permission to readinformation about that account. On Android 5.1 and lower, all apps need ""GET_ACCOUNTS"" permission to read information about any account."
+GET_ACCOUNTS_PRIVILEGED,"android.permission.GET_ACCOUNTS_PRIVILEGED",23,signature|privileged,
+GET_PACKAGE_SIZE,"android.permission.GET_PACKAGE_SIZE",1,normal,
+GET_TASKS,"android.permission.GET_TASKS",1,,"This constant was deprecated in API level 21. No longer enforced. This constant was deprecatedin API level 21. No longer enforced."
+GLOBAL_SEARCH,"android.permission.GLOBAL_SEARCH",4,signature|privileged,
+HIDE_OVERLAY_WINDOWS,"android.permission.HIDE_OVERLAY_WINDOWS",31,,Allows an app to prevent non-system-overlay windows from being drawn on top of it
+HIGH_SAMPLING_RATE_SENSORS,"android.permission.HIGH_SAMPLING_RATE_SENSORS",31,normal,
+INSTALL_LOCATION_PROVIDER,"android.permission.INSTALL_LOCATION_PROVIDER",4,,Allows an application to install a location provider into the Location Manager. Not for use by third-party applications. Not for use by third-party applications.
+INSTALL_PACKAGES,"android.permission.INSTALL_PACKAGES",1,,Allows an application to install packages. Not for use by third-party applications. Not for use by third-party applications.
+INSTALL_SHORTCUT,"com.android.launcher.permission.INSTALL_SHORTCUT",19,normal,
+INSTANT_APP_FOREGROUND_SERVICE,"android.permission.INSTANT_APP_FOREGROUND_SERVICE",26,signature|development|instant|appop,
+INTERACT_ACROSS_PROFILES,"android.permission.INTERACT_ACROSS_PROFILES",30,,Allows interaction across profiles in the same profile group.
+INTERNET,"android.permission.INTERNET",1,normal,
+KILL_BACKGROUND_PROCESSES,"android.permission.KILL_BACKGROUND_PROCESSES",8,normal,
+LAUNCH_CAPTURE_CONTENT_ACTIVITY_FOR_NOTE,"android.permission.LAUNCH_CAPTURE_CONTENT_ACTIVITY_FOR_NOTE",34,internal|role Intended for use by ROLE_NOTES only.,Intended for use by ROLE_NOTES only.
+LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK,"android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK",32,,An application needs this permission for Settings.ACTION_SETTINGS_EMBED_DEEP_LINK_ACTIVITY to show its Activity embedded in Settings app.
+LOADER_USAGE_STATS,"android.permission.LOADER_USAGE_STATS",30,"signature|privileged|appop ","A data loader has to be the one which provides data to install an app. A data loader has to have both permission:LOADER_USAGE_STATS AND appop:LOADER_USAGE_STATS allowed to be able to access the read logs. A data loader has to have both permission:LOADER_USAGE_STATS AND appop:LOADER_USAGE_STATS allowed to be able to access the read logs."
+LOCATION_HARDWARE,"android.permission.LOCATION_HARDWARE",18,,"Allows an application to use location features in hardware, such as the geofencing api. Not for use by third-party applications. Not for use by third-party applications."
+MANAGE_DEVICE_LOCK_STATE,"android.permission.MANAGE_DEVICE_LOCK_STATE",34,internal|role ,
+MANAGE_DEVICE_POLICY_ACCESSIBILITY,"android.permission.MANAGE_DEVICE_POLICY_ACCESSIBILITY",34,internal|role ,
+MANAGE_DEVICE_POLICY_ACCOUNT_MANAGEMENT,"android.permission.MANAGE_DEVICE_POLICY_ACCOUNT_MANAGEMENT",34,internal|role ,
+MANAGE_DEVICE_POLICY_ACROSS_USERS,"android.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS",34,internal|role ,
+MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL,"android.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_FULL",34,internal|role ,
+MANAGE_DEVICE_POLICY_ACROSS_USERS_SECURITY_CRITICAL,"android.permission.MANAGE_DEVICE_POLICY_ACROSS_USERS_SECURITY_CRITICAL",34,internal|role ,
+MANAGE_DEVICE_POLICY_AIRPLANE_MODE,"android.permission.MANAGE_DEVICE_POLICY_AIRPLANE_MODE",34,internal|role ,
+MANAGE_DEVICE_POLICY_APPS_CONTROL,"android.permission.MANAGE_DEVICE_POLICY_APPS_CONTROL",34,internal|role ,
+MANAGE_DEVICE_POLICY_APP_FUNCTIONS,"android.permission.MANAGE_DEVICE_POLICY_APP_FUNCTIONS",36,internal|role,
+MANAGE_DEVICE_POLICY_APP_RESTRICTIONS,"android.permission.MANAGE_DEVICE_POLICY_APP_RESTRICTIONS",34,internal|role ,
+MANAGE_DEVICE_POLICY_APP_USER_DATA,"android.permission.MANAGE_DEVICE_POLICY_APP_USER_DATA",34,internal|role ,
+MANAGE_DEVICE_POLICY_ASSIST_CONTENT,"android.permission.MANAGE_DEVICE_POLICY_ASSIST_CONTENT",35,internal|role ,
+MANAGE_DEVICE_POLICY_AUDIO_OUTPUT,"android.permission.MANAGE_DEVICE_POLICY_AUDIO_OUTPUT",34,internal|role ,
+MANAGE_DEVICE_POLICY_AUTOFILL,"android.permission.MANAGE_DEVICE_POLICY_AUTOFILL",34,internal|role ,
+MANAGE_DEVICE_POLICY_BACKUP_SERVICE,"android.permission.MANAGE_DEVICE_POLICY_BACKUP_SERVICE",34,internal|role ,
+MANAGE_DEVICE_POLICY_BLOCK_UNINSTALL,"android.permission.MANAGE_DEVICE_POLICY_BLOCK_UNINSTALL",35,internal|role ,
+MANAGE_DEVICE_POLICY_BLUETOOTH,"android.permission.MANAGE_DEVICE_POLICY_BLUETOOTH",34,internal|role ,
+MANAGE_DEVICE_POLICY_BUGREPORT,"android.permission.MANAGE_DEVICE_POLICY_BUGREPORT",34,internal|role ,
+MANAGE_DEVICE_POLICY_CALLS,"android.permission.MANAGE_DEVICE_POLICY_CALLS",34,internal|role ,
+MANAGE_DEVICE_POLICY_CAMERA,"android.permission.MANAGE_DEVICE_POLICY_CAMERA",34,internal|role ,
+MANAGE_DEVICE_POLICY_CAMERA_TOGGLE,"android.permission.MANAGE_DEVICE_POLICY_CAMERA_TOGGLE",35,internal|role ,
+MANAGE_DEVICE_POLICY_CERTIFICATES,"android.permission.MANAGE_DEVICE_POLICY_CERTIFICATES",34,internal|role ,
+MANAGE_DEVICE_POLICY_COMMON_CRITERIA_MODE,"android.permission.MANAGE_DEVICE_POLICY_COMMON_CRITERIA_MODE",34,internal|role ,
+MANAGE_DEVICE_POLICY_CONTENT_PROTECTION,"android.permission.MANAGE_DEVICE_POLICY_CONTENT_PROTECTION",35,internal|role,
+MANAGE_DEVICE_POLICY_DEBUGGING_FEATURES,"android.permission.MANAGE_DEVICE_POLICY_DEBUGGING_FEATURES",34,internal|role ,
+MANAGE_DEVICE_POLICY_DEFAULT_SMS,"android.permission.MANAGE_DEVICE_POLICY_DEFAULT_SMS",34,internal|role ,
+MANAGE_DEVICE_POLICY_DEVICE_IDENTIFIERS,"android.permission.MANAGE_DEVICE_POLICY_DEVICE_IDENTIFIERS",34,internal|role ,
+MANAGE_DEVICE_POLICY_DISPLAY,"android.permission.MANAGE_DEVICE_POLICY_DISPLAY",34,internal|role ,
+MANAGE_DEVICE_POLICY_FACTORY_RESET,"android.permission.MANAGE_DEVICE_POLICY_FACTORY_RESET",34,internal|role ,
+MANAGE_DEVICE_POLICY_FUN,"android.permission.MANAGE_DEVICE_POLICY_FUN",34,internal|role ,
+MANAGE_DEVICE_POLICY_INPUT_METHODS,"android.permission.MANAGE_DEVICE_POLICY_INPUT_METHODS",34,internal|role ,
+MANAGE_DEVICE_POLICY_INSTALL_UNKNOWN_SOURCES,"android.permission.MANAGE_DEVICE_POLICY_INSTALL_UNKNOWN_SOURCES",34,internal|role ,
+MANAGE_DEVICE_POLICY_KEEP_UNINSTALLED_PACKAGES,"android.permission.MANAGE_DEVICE_POLICY_KEEP_UNINSTALLED_PACKAGES",34,internal|role ,
+MANAGE_DEVICE_POLICY_KEYGUARD,"android.permission.MANAGE_DEVICE_POLICY_KEYGUARD",34,internal|role ,
+MANAGE_DEVICE_POLICY_LOCALE,"android.permission.MANAGE_DEVICE_POLICY_LOCALE",34,internal|role ,
+MANAGE_DEVICE_POLICY_LOCATION,"android.permission.MANAGE_DEVICE_POLICY_LOCATION",34,internal|role ,
+MANAGE_DEVICE_POLICY_LOCK,"android.permission.MANAGE_DEVICE_POLICY_LOCK",34,internal|role ,
+MANAGE_DEVICE_POLICY_LOCK_CREDENTIALS,"android.permission.MANAGE_DEVICE_POLICY_LOCK_CREDENTIALS",34,internal|role ,
+MANAGE_DEVICE_POLICY_LOCK_TASK,"android.permission.MANAGE_DEVICE_POLICY_LOCK_TASK",34,internal|role ,
+MANAGE_DEVICE_POLICY_MANAGED_SUBSCRIPTIONS,"android.permission.MANAGE_DEVICE_POLICY_MANAGED_SUBSCRIPTIONS",35,internal|role ,
+MANAGE_DEVICE_POLICY_METERED_DATA,"android.permission.MANAGE_DEVICE_POLICY_METERED_DATA",34,internal|role ,
+MANAGE_DEVICE_POLICY_MICROPHONE,"android.permission.MANAGE_DEVICE_POLICY_MICROPHONE",34,internal|role ,
+MANAGE_DEVICE_POLICY_MICROPHONE_TOGGLE,"android.permission.MANAGE_DEVICE_POLICY_MICROPHONE_TOGGLE",35,internal|role ,
+MANAGE_DEVICE_POLICY_MOBILE_NETWORK,"android.permission.MANAGE_DEVICE_POLICY_MOBILE_NETWORK",34,internal|role ,
+MANAGE_DEVICE_POLICY_MODIFY_USERS,"android.permission.MANAGE_DEVICE_POLICY_MODIFY_USERS",34,internal|role ,
+MANAGE_DEVICE_POLICY_MTE,"android.permission.MANAGE_DEVICE_POLICY_MTE",34,internal|role ,
+MANAGE_DEVICE_POLICY_NEARBY_COMMUNICATION,"android.permission.MANAGE_DEVICE_POLICY_NEARBY_COMMUNICATION",34,internal|role ,
+MANAGE_DEVICE_POLICY_NETWORK_LOGGING,"android.permission.MANAGE_DEVICE_POLICY_NETWORK_LOGGING",34,internal|role ,
+MANAGE_DEVICE_POLICY_ORGANIZATION_IDENTITY,"android.permission.MANAGE_DEVICE_POLICY_ORGANIZATION_IDENTITY",34,internal|role ,
+MANAGE_DEVICE_POLICY_OVERRIDE_APN,"android.permission.MANAGE_DEVICE_POLICY_OVERRIDE_APN",34,internal|role ,
+MANAGE_DEVICE_POLICY_PACKAGE_STATE,"android.permission.MANAGE_DEVICE_POLICY_PACKAGE_STATE",34,internal|role ,
+MANAGE_DEVICE_POLICY_PHYSICAL_MEDIA,"android.permission.MANAGE_DEVICE_POLICY_PHYSICAL_MEDIA",34,internal|role ,
+MANAGE_DEVICE_POLICY_PRINTING,"android.permission.MANAGE_DEVICE_POLICY_PRINTING",34,internal|role ,
+MANAGE_DEVICE_POLICY_PRIVATE_DNS,"android.permission.MANAGE_DEVICE_POLICY_PRIVATE_DNS",34,internal|role ,
+MANAGE_DEVICE_POLICY_PROFILES,"android.permission.MANAGE_DEVICE_POLICY_PROFILES",34,internal|role ,
+MANAGE_DEVICE_POLICY_PROFILE_INTERACTION,"android.permission.MANAGE_DEVICE_POLICY_PROFILE_INTERACTION",34,internal|role ,
+MANAGE_DEVICE_POLICY_PROXY,"android.permission.MANAGE_DEVICE_POLICY_PROXY",34,internal|role ,
+MANAGE_DEVICE_POLICY_QUERY_SYSTEM_UPDATES,"android.permission.MANAGE_DEVICE_POLICY_QUERY_SYSTEM_UPDATES",34,internal|role ,
+MANAGE_DEVICE_POLICY_RESET_PASSWORD,"android.permission.MANAGE_DEVICE_POLICY_RESET_PASSWORD",34,internal|role ,
+MANAGE_DEVICE_POLICY_RESTRICT_PRIVATE_DNS,"android.permission.MANAGE_DEVICE_POLICY_RESTRICT_PRIVATE_DNS",34,internal|role ,
+MANAGE_DEVICE_POLICY_RUNTIME_PERMISSIONS,"android.permission.MANAGE_DEVICE_POLICY_RUNTIME_PERMISSIONS",34,internal|role ,
+MANAGE_DEVICE_POLICY_RUN_IN_BACKGROUND,"android.permission.MANAGE_DEVICE_POLICY_RUN_IN_BACKGROUND",34,internal|role ,
+MANAGE_DEVICE_POLICY_SAFE_BOOT,"android.permission.MANAGE_DEVICE_POLICY_SAFE_BOOT",34,internal|role ,
+MANAGE_DEVICE_POLICY_SCREEN_CAPTURE,"android.permission.MANAGE_DEVICE_POLICY_SCREEN_CAPTURE",34,internal|role ,
+MANAGE_DEVICE_POLICY_SCREEN_CONTENT,"android.permission.MANAGE_DEVICE_POLICY_SCREEN_CONTENT",34,internal|role ,
+MANAGE_DEVICE_POLICY_SECURITY_LOGGING,"android.permission.MANAGE_DEVICE_POLICY_SECURITY_LOGGING",34,internal|role ,
+MANAGE_DEVICE_POLICY_SETTINGS,"android.permission.MANAGE_DEVICE_POLICY_SETTINGS",34,internal|role ,
+MANAGE_DEVICE_POLICY_SMS,"android.permission.MANAGE_DEVICE_POLICY_SMS",34,internal|role ,
+MANAGE_DEVICE_POLICY_STATUS_BAR,"android.permission.MANAGE_DEVICE_POLICY_STATUS_BAR",34,internal|role ,
+MANAGE_DEVICE_POLICY_SUPPORT_MESSAGE,"android.permission.MANAGE_DEVICE_POLICY_SUPPORT_MESSAGE",34,internal|role ,
+MANAGE_DEVICE_POLICY_SUSPEND_PERSONAL_APPS,"android.permission.MANAGE_DEVICE_POLICY_SUSPEND_PERSONAL_APPS",34,internal|role ,
+MANAGE_DEVICE_POLICY_SYSTEM_APPS,"android.permission.MANAGE_DEVICE_POLICY_SYSTEM_APPS",34,internal|role ,
+MANAGE_DEVICE_POLICY_SYSTEM_DIALOGS,"android.permission.MANAGE_DEVICE_POLICY_SYSTEM_DIALOGS",34,internal|role ,
+MANAGE_DEVICE_POLICY_SYSTEM_UPDATES,"android.permission.MANAGE_DEVICE_POLICY_SYSTEM_UPDATES",34,internal|role ,
+MANAGE_DEVICE_POLICY_THREAD_NETWORK,"android.permission.MANAGE_DEVICE_POLICY_THREAD_NETWORK",36,internal|role ,
+MANAGE_DEVICE_POLICY_TIME,"android.permission.MANAGE_DEVICE_POLICY_TIME",34,internal|role ,
+MANAGE_DEVICE_POLICY_USB_DATA_SIGNALLING,"android.permission.MANAGE_DEVICE_POLICY_USB_DATA_SIGNALLING",34,internal|role ,
+MANAGE_DEVICE_POLICY_USB_FILE_TRANSFER,"android.permission.MANAGE_DEVICE_POLICY_USB_FILE_TRANSFER",34,internal|role ,
+MANAGE_DEVICE_POLICY_USERS,"android.permission.MANAGE_DEVICE_POLICY_USERS",34,internal|role ,
+MANAGE_DEVICE_POLICY_VPN,"android.permission.MANAGE_DEVICE_POLICY_VPN",34,internal|role ,
+MANAGE_DEVICE_POLICY_WALLPAPER,"android.permission.MANAGE_DEVICE_POLICY_WALLPAPER",34,internal|role ,
+MANAGE_DEVICE_POLICY_WIFI,"android.permission.MANAGE_DEVICE_POLICY_WIFI",34,internal|role ,
+MANAGE_DEVICE_POLICY_WINDOWS,"android.permission.MANAGE_DEVICE_POLICY_WINDOWS",34,internal|role ,
+MANAGE_DEVICE_POLICY_WIPE_DATA,"android.permission.MANAGE_DEVICE_POLICY_WIPE_DATA",34,internal|role ,
+MANAGE_DOCUMENTS,"android.permission.MANAGE_DOCUMENTS",19,,"Allows an application to manage access to documents, usually as part of a document picker. This permission should only be requested by the platform  document management app.  This permission cannot be granted to  third-party apps. This permission should only be requested by the platform document management app.  This permission cannot be granted to  third-party apps."
+MANAGE_EXTERNAL_STORAGE,"android.permission.MANAGE_EXTERNAL_STORAGE",30,signature|appop|preinstalled,
+MANAGE_MEDIA,"android.permission.MANAGE_MEDIA",31,signature|appop|preinstalled,
+MANAGE_ONGOING_CALLS,"android.permission.MANAGE_ONGOING_CALLS",31,signature|appop,
+MANAGE_OWN_CALLS,"android.permission.MANAGE_OWN_CALLS",26,normal,
+MANAGE_WIFI_INTERFACES,"android.permission.MANAGE_WIFI_INTERFACES",33,,"Allows applications to get notified when a Wi-Fi interface request cannot be satisfied without tearing down one or more other interfaces, and provide a decision whether to approve the request or reject it. Not for use by third-party applications. Not for use by third-party applications."
+MANAGE_WIFI_NETWORK_SELECTION,"android.permission.MANAGE_WIFI_NETWORK_SELECTION",33,,"This permission is used to let OEMs grant their trusted app access to a subset of privileged wifi APIs to improve wifi performance. Allows applications to manage Wi-Fi network selection related features such as enable or disable global auto-join, modify connectivity scan intervals, and approve Wi-Fi Direct connections. Not for use by third-party applications. Not for use by third-party applications."
+MASTER_CLEAR,"android.permission.MASTER_CLEAR",1,,Not for use by third-party applications.
+MEDIA_CONTENT_CONTROL,"android.permission.MEDIA_CONTENT_CONTROL",19,,Allows an application to know what content is playing and control its playback. Not for use by third-party applications due to privacy of media consumption Not for use by third-party applications due to privacy of media consumption
+MEDIA_ROUTING_CONTROL,"android.permission.MEDIA_ROUTING_CONTROL",35,,Allows an application to control the routing of media apps. Only for use by role COMPANION_DEVICE_WATCH Only for use by role COMPANION_DEVICE_WATCH
+MODIFY_AUDIO_SETTINGS,"android.permission.MODIFY_AUDIO_SETTINGS",1,normal,
+MODIFY_PHONE_STATE,"android.permission.MODIFY_PHONE_STATE",1,,"Allows modification of the telephony state - power on, mmi, etc. Does not include placing calls. Not for use by third-party applications. Not for use by third-party applications."
+MOUNT_FORMAT_FILESYSTEMS,"android.permission.MOUNT_FORMAT_FILESYSTEMS",3,,Allows formatting file systems for removable storage. Not for use by third-party applications. Not for use by third-party applications.
+MOUNT_UNMOUNT_FILESYSTEMS,"android.permission.MOUNT_UNMOUNT_FILESYSTEMS",1,,Allows mounting and unmounting file systems for removable storage. Not for use by third-party applications. Not for use by third-party applications.
+NEARBY_WIFI_DEVICES,"android.permission.NEARBY_WIFI_DEVICES",33,dangerous,
+NFC,"android.permission.NFC",9,normal,
+NFC_PREFERRED_PAYMENT_INFO,"android.permission.NFC_PREFERRED_PAYMENT_INFO",30,normal,
+NFC_TRANSACTION_EVENT,"android.permission.NFC_TRANSACTION_EVENT",28,normal,
+OVERRIDE_WIFI_CONFIG,"android.permission.OVERRIDE_WIFI_CONFIG",33,,"Allows an application to modify any wifi configuration, even if created by another application. Once reconfigured the original creator cannot make any further modifications. Not for use by third-party applications. Not for use by third-party applications."
+PACKAGE_USAGE_STATS,"android.permission.PACKAGE_USAGE_STATS",23,signature|privileged|development|appop|retailDemo,
+PERSISTENT_ACTIVITY,"android.permission.PERSISTENT_ACTIVITY",1,,"This constant was deprecated in API level 15. This functionality will be removed in the future; please do not use. Allow an application to make its activities persistent. This constant was deprecated in API level 15. This functionality will be removed in the future; please do not use. Allow an application to make its activities persistent."
+POST_NOTIFICATIONS,"android.permission.POST_NOTIFICATIONS",33,dangerous,
+PROCESS_OUTGOING_CALLS,"android.permission.PROCESS_OUTGOING_CALLS",1,dangerous,"This constant was deprecated in API level 29. Applications should use CallRedirectionService instead of the Intent.ACTION_NEW_OUTGOING_CALL broadcast. This is a hard restricted permission which cannot be held by an app until the installer on record allowlists the permission. For more details see PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set) ."
+PROVIDE_OWN_AUTOFILL_SUGGESTIONS,"android.permission.PROVIDE_OWN_AUTOFILL_SUGGESTIONS",34,internal|role,
+PROVIDE_REMOTE_CREDENTIALS,"android.permission.PROVIDE_REMOTE_CREDENTIALS",34,signature|privileged|role,
+QUERY_ADVANCED_PROTECTION_MODE,"android.permission.QUERY_ADVANCED_PROTECTION_MODE",36,,Allows an application to query the device's advanced protection mode status.
+QUERY_ALL_PACKAGES,"android.permission.QUERY_ALL_PACKAGES",30,normal,
+RANGING,"android.permission.RANGING",36,dangerous,
+READ_ASSISTANT_APP_SEARCH_DATA,"android.permission.READ_ASSISTANT_APP_SEARCH_DATA",33,,"Allows an application to query over global data in AppSearch that's visible to the ASSISTANT role."
+READ_BASIC_PHONE_STATE,"android.permission.READ_BASIC_PHONE_STATE",33,,"Allows read only access to phone state with a non dangerous permission, including the information like cellular network type, software version."
+READ_CALENDAR,"android.permission.READ_CALENDAR",1,dangerous,
+READ_CALL_LOG,"android.permission.READ_CALL_LOG",16,dangerous,"Note: If your app uses the READ_CONTACTS permission and both your minSdkVersion and targetSdkVersion values are set to 15 or lower, the system implicitly grants your app this permission. If you don't need this permission, be sure your targetSdkVersion is 16 or higher. This is a hard restricted permission which cannot be held by an app until the installer on record allowlists the permission. For more details see PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set) ."
+READ_COLOR_ZONES,"android.permission.READ_COLOR_ZONES",36,normal,
+READ_CONTACTS,"android.permission.READ_CONTACTS",1,dangerous,
+READ_DROPBOX_DATA,"android.permission.READ_DROPBOX_DATA",35,,Allows an application to access the data in Dropbox. Not for use by third-party applications. Not for use by third-party applications.
+READ_EXTERNAL_STORAGE,"android.permission.READ_EXTERNAL_STORAGE",16,dangerous,"Note: Starting in API level 33, this permission has no effect. If your app accesses other apps' media files, request one or more of these permissions instead: READ_MEDIA_IMAGES , READ_MEDIA_VIDEO , READ_MEDIA_AUDIO . Learn more about the storage permissions that are associated with media files. This permission is enforced starting in API level 19.  Before API level 19, this  permission is not enforced and all apps still have access to read from external storage. You can test your app with the permission enforced by enabling Protect USB storage under Developer options in the Settings app on a device running Android 4.1 or higher. Also starting in API level 19, this permission is not required to  read or write files in your application-specific directories returned by Context.getExternalFilesDir(String) and Context.getExternalCacheDir() . Starting in API level 29, apps don't need to request this permission to access files in their app-specific directory on external storage, or their own files in the MediaStore . Apps shouldn't request this permission unless they need to access other apps' files in the MediaStore . Read more about these changes in the scoped storage section of the developer documentation. If both your minSdkVersion and targetSdkVersion values are set to 3 or lower, the system implicitly grants your app this permission. If you don't need this permission, be sure your targetSdkVersion is 4 or higher."
+READ_HOME_APP_SEARCH_DATA,"android.permission.READ_HOME_APP_SEARCH_DATA",33,,"Allows an application to query over global data in AppSearch that's visible to theHOME role."
+READ_INPUT_STATE,"android.permission.READ_INPUT_STATE",1,,"This constant was deprecated in API level 16. The API that used this permission has been removed. Allows an application to retrieve the current state of keys and switches. Not for use by third-party applications. Not for use by third-party applications."
+READ_LOGS,"android.permission.READ_LOGS",1,,"Allows an application to read the low-level system log files. Not for use by third-party applications, because Log entries can contain the user's private information. Not for use by third-party applications, because Log entries can contain the user's private information."
+READ_MEDIA_AUDIO,"android.permission.READ_MEDIA_AUDIO",33,dangerous,
+READ_MEDIA_IMAGES,"android.permission.READ_MEDIA_IMAGES",33,dangerous,
+READ_MEDIA_VIDEO,"android.permission.READ_MEDIA_VIDEO",33,dangerous,
+READ_MEDIA_VISUAL_USER_SELECTED,"android.permission.READ_MEDIA_VISUAL_USER_SELECTED",34,dangerous,
+READ_NEARBY_STREAMING_POLICY,"android.permission.READ_NEARBY_STREAMING_POLICY",33,,"Allows an application to read nearby streaming policy. The policy controls whether to allow the device to stream its notifications and apps to nearby devices. Applications that are not the device owner will need this permission to call DevicePolicyManager.getNearbyNotificationStreamingPolicy() or DevicePolicyManager.getNearbyAppStreamingPolicy() ."
+READ_PHONE_NUMBERS,"android.permission.READ_PHONE_NUMBERS",26,dangerous,
+READ_PHONE_STATE,"android.permission.READ_PHONE_STATE",1,dangerous,
+READ_PRECISE_PHONE_STATE,"android.permission.READ_PRECISE_PHONE_STATE",30,,"Allows read only access to precise phone state. Allows reading of detailed information about phone state for special-use applications such as dialers, carrier applications, or ims applications."
+READ_SMS,"android.permission.READ_SMS",1,dangerous,"This is a hard restricted permission which cannot be held by an app until the installer on record allowlists the permission. For more details see PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set) ."
+READ_SYNC_SETTINGS,"android.permission.READ_SYNC_SETTINGS",1,normal,
+READ_SYNC_STATS,"android.permission.READ_SYNC_STATS",1,normal,
+READ_SYSTEM_PREFERENCES,"android.permission.READ_SYSTEM_PREFERENCES",36,,"Allows an application to access the Settings Preference services to read settings exposed by the system Settings app and system apps that contribute settings surfaced by the Settings app. This allows the calling application to read settings values through the host application, agnostic of underlying storage. This allows the calling application to read settings values through the host application, agnostic of underlying storage."
+READ_VOICEMAIL,"com.android.voicemail.permission.READ_VOICEMAIL",21,signature|privileged|role,
+REBOOT,"android.permission.REBOOT",1,,Required to be able to reboot the device. Not for use by third-party applications. Not for use by third-party applications.
+RECEIVE_BOOT_COMPLETED,"android.permission.RECEIVE_BOOT_COMPLETED",1,normal,
+RECEIVE_MMS,"android.permission.RECEIVE_MMS",1,dangerous,"This is a hard restricted permission which cannot be held by an app until the installer on record allowlists the permission. For more details see PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set) ."
+RECEIVE_SMS,"android.permission.RECEIVE_SMS",1,dangerous,"This is a hard restricted permission which cannot be held by an app until the installer on record allowlists the permission. For more details see PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set) ."
+RECEIVE_WAP_PUSH,"android.permission.RECEIVE_WAP_PUSH",1,dangerous,"This is a hard restricted permission which cannot be held by an app until the installer on record allowlists the permission. For more details see PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set) ."
+RECORD_AUDIO,"android.permission.RECORD_AUDIO",1,dangerous,
+REORDER_TASKS,"android.permission.REORDER_TASKS",1,normal,
+REQUEST_COMPANION_PROFILE_APP_STREAMING,"android.permission.REQUEST_COMPANION_PROFILE_APP_STREAMING",33,,"Allows application to request to be associated with a virtual device capable of streaming Android applications ( AssociationRequest.DEVICE_PROFILE_APP_STREAMING ) by CompanionDeviceManager . Not for use by third-party applications. Not for use by third-party applications."
+REQUEST_COMPANION_PROFILE_AUTOMOTIVE_PROJECTION,"android.permission.REQUEST_COMPANION_PROFILE_AUTOMOTIVE_PROJECTION",33,,"Allows application to request to be associated with a vehicle head unit capable of automotive projection ( AssociationRequest.DEVICE_PROFILE_AUTOMOTIVE_PROJECTION ) by CompanionDeviceManager . Not for use by third-party applications. Not for use by third-party applications."
+REQUEST_COMPANION_PROFILE_COMPUTER,"android.permission.REQUEST_COMPANION_PROFILE_COMPUTER",33,,"Allows application to request to be associated with a computer to share functionality and/or data with other devices, such as notifications, photos and media ( AssociationRequest.DEVICE_PROFILE_COMPUTER ) by CompanionDeviceManager . Not for use by third-party applications. Not for use by third-party applications."
+REQUEST_COMPANION_PROFILE_GLASSES,"android.permission.REQUEST_COMPANION_PROFILE_GLASSES",34,normal,
+REQUEST_COMPANION_PROFILE_NEARBY_DEVICE_STREAMING,"android.permission.REQUEST_COMPANION_PROFILE_NEARBY_DEVICE_STREAMING",34,,"Allows application to request to stream content from an Android host to a nearby device ( AssociationRequest.DEVICE_PROFILE_NEARBY_DEVICE_STREAMING ) by CompanionDeviceManager . Not for use by third-party applications. Not for use by third-party applications."
+REQUEST_COMPANION_PROFILE_WATCH,"android.permission.REQUEST_COMPANION_PROFILE_WATCH",31,normal,
+REQUEST_COMPANION_RUN_IN_BACKGROUND,"android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND",26,normal,
+REQUEST_COMPANION_SELF_MANAGED,"android.permission.REQUEST_COMPANION_SELF_MANAGED",33,,"Allows an application to create a ""self-managed"" association."
+REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND,"android.permission.REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND",31,normal,See also:
+REQUEST_COMPANION_USE_DATA_IN_BACKGROUND,"android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND",26,normal,
+REQUEST_DELETE_PACKAGES,"android.permission.REQUEST_DELETE_PACKAGES",26,normal,
+REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,"android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",23,normal,
+REQUEST_INSTALL_PACKAGES,"android.permission.REQUEST_INSTALL_PACKAGES",23,signature,
+REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE,"android.permission.REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE",31,,"Allows an application to subscribe to notifications about the presence status change of their associated companion device"
+REQUEST_OBSERVE_DEVICE_UUID_PRESENCE,"android.permission.REQUEST_OBSERVE_DEVICE_UUID_PRESENCE",36,,"Allows an application to subscribe to notifications about the nearby devices' presence status change base on the UUIDs. Not for use by third-party applications. Not for use by third-party applications."
+REQUEST_PASSWORD_COMPLEXITY,"android.permission.REQUEST_PASSWORD_COMPLEXITY",29,normal,
+RESTART_PACKAGES,"android.permission.RESTART_PACKAGES",1,,"This constant was deprecated in API level 15. The ActivityManager.restartPackage(String) API is no longer supported. This constant was deprecated in API level 15. The ActivityManager.restartPackage(String) API is no longer supported."
+RUN_USER_INITIATED_JOBS,"android.permission.RUN_USER_INITIATED_JOBS",34,normal,
+SCHEDULE_EXACT_ALARM,"android.permission.SCHEDULE_EXACT_ALARM",31,signature|privileged|appop,
+SEND_RESPOND_VIA_MESSAGE,"android.permission.SEND_RESPOND_VIA_MESSAGE",18,,"Allows an application (Phone) to send a request to other applications to handle the respond-via-message action during incoming calls. Not for use by third-party applications. Not for use by third-party applications."
+SEND_SMS,"android.permission.SEND_SMS",1,dangerous,"This is a hard restricted permission which cannot be held by an app until the installer on record allowlists the permission. For more details see PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set) ."
+SET_ALARM,"com.android.alarm.permission.SET_ALARM",9,normal,
+SET_ALWAYS_FINISH,"android.permission.SET_ALWAYS_FINISH",1,,"Allows an application to control whether activities are immediately finished when put in the background. Not for use by third-party applications. Not for use by third-party applications."
+SET_ANIMATION_SCALE,"android.permission.SET_ANIMATION_SCALE",1,,Modify the global animation scaling factor. Not for use by third-party applications. Not for use by third-party applications.
+SET_BIOMETRIC_DIALOG_ADVANCED,"android.permission.SET_BIOMETRIC_DIALOG_ADVANCED",35,,"Allows an application to set the advanced features on BiometricDialog (SystemUI), including logo, logo description, and content view with more options button. Not for use by third-party applications. Not for use by third-party applications."
+SET_DEBUG_APP,"android.permission.SET_DEBUG_APP",1,,Configure an application for debugging. Not for use by third-party applications. Not for use by third-party applications.
+SET_PREFERRED_APPLICATIONS,"android.permission.SET_PREFERRED_APPLICATIONS",1,,"This constant was deprecated in API level 15. No longer useful, see PackageManager.addPackageToPreferred(String) for details. This constant was deprecated  in API level 15. No longer useful, see PackageManager.addPackageToPreferred(String) for details."
+SET_PROCESS_LIMIT,"android.permission.SET_PROCESS_LIMIT",1,,"Allows an application to set the maximum number of (not needed) application processes that can be running. Not for use by third-party applications. Not for use by third-party applications."
+SET_TIME,"android.permission.SET_TIME",8,,Allows applications to set the system time directly. Not for use by third-party applications. Not for use by third-party applications.
+SET_TIME_ZONE,"android.permission.SET_TIME_ZONE",1,,Allows applications to set the system time zone directly. Not for use by third-party applications. Not for use by third-party applications.
+SET_WALLPAPER,"android.permission.SET_WALLPAPER",1,normal,
+SET_WALLPAPER_HINTS,"android.permission.SET_WALLPAPER_HINTS",1,normal,
+SIGNAL_PERSISTENT_PROCESSES,"android.permission.SIGNAL_PERSISTENT_PROCESSES",1,,Allow an application to request that a signal be sent to all persistent processes. Not for use by third-party applications. Not for use by third-party applications.
+SMS_FINANCIAL_TRANSACTIONS,"android.permission.SMS_FINANCIAL_TRANSACTIONS",29,signature|appop,"This constant was deprecated in API level 31. The API that used this permission is no longer functional."
+START_FOREGROUND_SERVICES_FROM_BACKGROUND,"android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND",31,,"Allows an application to start foreground services from the background at any time. This permission is not for use by third-party applications , with the only exception being if the app is the default SMS app. Otherwise, it's only usable by privileged apps, app verifier app, and apps with any of the EMERGENCY or SYSTEM GALLERY roles."
+START_VIEW_APP_FEATURES,"android.permission.START_VIEW_APP_FEATURES",33,signature|installer,
+START_VIEW_PERMISSION_USAGE,"android.permission.START_VIEW_PERMISSION_USAGE",29,signature|installer,
+STATUS_BAR,"android.permission.STATUS_BAR",1,,"Allows an application to open, close, or disable the status bar and its icons. Not for use by third-party applications. Not for use by third-party applications."
+SUBSCRIBE_TO_KEYGUARD_LOCKED_STATE,"android.permission.SUBSCRIBE_TO_KEYGUARD_LOCKED_STATE",33,"signature|privileged|module|role","Intended for use by ROLE_ASSISTANT, VDM, and signature / privileged apps only."
+SYSTEM_ALERT_WINDOW,"android.permission.SYSTEM_ALERT_WINDOW",1,signature|setup|appop|installer|pre23|development,
+TRANSMIT_IR,"android.permission.TRANSMIT_IR",19,normal,
+TURN_SCREEN_ON,"android.permission.TURN_SCREEN_ON",34,,"Allows an app to turn on the screen on, e.g. with PowerManager.ACQUIRE_CAUSES_WAKEUP . Intended to only be used by home automation apps. Intended to only be used by home automation apps."
+TV_IMPLICIT_ENTER_PIP,"android.permission.TV_IMPLICIT_ENTER_PIP",36,,"Allows an app to enter Picture-in-Picture mode when the user is not explicitly requesting it. This includes using ERROR(/PictureInPictureParams.Builder#setAutoEnterEnabled) as well as lifecycle methods such as ERROR(/Activity#onUserLeaveHint) and ERROR(/Activity#onPause) to enter PiP when the user leaves the app. This permission should only be used for certain PiP usage types ."
+UNINSTALL_SHORTCUT,"com.android.launcher.permission.UNINSTALL_SHORTCUT",19,,"Don't use this permission in your app. This permission is no longer supported. Don't use this permission in your app. This permission is no longer supported."
+UPDATE_DEVICE_STATS,"android.permission.UPDATE_DEVICE_STATS",3,,Allows an application to update device statistics. Not for use by third-party applications. Not for use by third-party applications.
+UPDATE_PACKAGES_WITHOUT_USER_ACTION,"android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION",31,normal,
+USE_BIOMETRIC,"android.permission.USE_BIOMETRIC",28,normal,
+USE_EXACT_ALARM,"android.permission.USE_EXACT_ALARM",33,,"Apps need to target API Build.VERSION_CODES.TIRAMISU or above to be able to request this permission. Note that only one of USE_EXACT_ALARM or SCHEDULE_EXACT_ALARM should be requested on a device. If your app is already using SCHEDULE_EXACT_ALARM on older SDKs but needs USE_EXACT_ALARM on SDK 33 and above, then SCHEDULE_EXACT_ALARM should be declared with a max-sdk attribute, like: <uses-permission android:name=""android.permission.SCHEDULE_EXACT_ALARM"" android:maxSdkVersion=""32"" /> Apps that hold this permission, always stay in the WORKING_SET or lower standby bucket. Apps that hold this permission, always stay in the WORKING_SET or lower standby bucket."
+USE_FINGERPRINT,"android.permission.USE_FINGERPRINT",23,normal,"This constant was deprecated in API level 28. Applications should request USE_BIOMETRIC instead"
+USE_FULL_SCREEN_INTENT,"android.permission.USE_FULL_SCREEN_INTENT",29,normal,
+USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER,"android.permission.USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER",31,signature|appop,
+USE_SIP,"android.permission.USE_SIP",9,dangerous,
+UWB_RANGING,"android.permission.UWB_RANGING",31,dangerous,
+VIBRATE,"android.permission.VIBRATE",1,normal,
+WAKE_LOCK,"android.permission.WAKE_LOCK",1,normal,
+WRITE_APN_SETTINGS,"android.permission.WRITE_APN_SETTINGS",1,,"Allows applications to write the apn settings and read sensitive fields of an existing apn settings like user and password. Not for use by third-party applications. Not for use by third-party applications."
+WRITE_CALENDAR,"android.permission.WRITE_CALENDAR",1,dangerous,
+WRITE_CALL_LOG,"android.permission.WRITE_CALL_LOG",16,dangerous,"Note: If your app uses the WRITE_CONTACTS permission and both your minSdkVersion and targetSdkVersion values are set to 15 or lower, the system implicitly grants your app this permission. If you don't need this permission, be sure your targetSdkVersion is 16 or higher. This is a hard restricted permission which cannot be held by an app until the installer on record allowlists the permission. For more details see PackageInstaller.SessionParams.setWhitelistedRestrictedPermissions(Set) ."
+WRITE_CONTACTS,"android.permission.WRITE_CONTACTS",1,dangerous,
+WRITE_EXTERNAL_STORAGE,"android.permission.WRITE_EXTERNAL_STORAGE",4,dangerous,
+WRITE_GSERVICES,"android.permission.WRITE_GSERVICES",1,,Allows an application to modify the Google service map. Not for use by third-party applications. Not for use by third-party applications.
+WRITE_SECURE_SETTINGS,"android.permission.WRITE_SECURE_SETTINGS",3,,Allows an application to read or write the secure system settings. Not for use by third-party applications. Not for use by third-party applications.
+WRITE_SETTINGS,"android.permission.WRITE_SETTINGS",1,signature|preinstalled|appop|pre23,
+WRITE_SYNC_SETTINGS,"android.permission.WRITE_SYNC_SETTINGS",1,normal,
+WRITE_SYSTEM_PREFERENCES,"android.permission.WRITE_SYSTEM_PREFERENCES",36,,"This allows the calling application to write settings values through the host application, agnostic of underlying storage. Protection Level: signature|privileged|appop Protection Level: signature|privileged|appop"
+WRITE_VOICEMAIL,"com.android.voicemail.permission.WRITE_VOICEMAIL",21,signature|privileged|role,

@@ -11,14 +11,21 @@
 
 ### 🗂️ Repository Organization
 
-The repository is organized into main directories:
+The repository is structured into the following main directories:
 
-* **📁 0_Data**  
+- **📁 `0_Data/`**  
+  Contains all the datasets related to our experiments. Due to storage constraints, some large files (e.g., APKs, full privacy policy contents) are not included.
 
-  This directory contains all the data related to our experiments.
+- **📂 `1_Code/`**  
+  Includes all the code used in the experiments, primarily in the form of Jupyter Notebooks to ease reproducibility and exploration.  
+  Organized by research question (RQ), each subfolder contains one or more notebooks.
 
-* **📂 1_Code**  
-  Contains all the code relative to our experiments. The code is provided into the form of multiple Jupyter Notebooks to facilitate execution.
+  - 🔧 **Utility Scripts**:  
+    - `AppUtils.py`: Feature extraction from APK files  
+    - `PairwiseAnalysisUtils.py`: Pairwise comparisons and similarity score computations
+
+> ⚠️ **Note**: Some data files (e.g., raw APKs) are not included due to size restrictions. However, the code is fully provided to reproduce the feature extraction and analysis processes.
+
 
 ### 📋 Requirements
 
@@ -96,6 +103,13 @@ THIRD_PARTY_LIBS_PATH = [YOUR_PATH_TO_THETHIRD_PARTY_LIBS_FILE]
 
 ### ⚙️ Usage
 
-The provided Jupyter Notebooks facilitates the experiments.
+The analysis can be carried out by running the Jupyter Notebooks provided in the `1_Code/` directory. Each subfolder corresponds to a specific research question (RQ) and contains one or more notebooks related to that topic.
 
-TODO
+Feature extraction and pairwise comparisons are handled by two utility scripts:
+
+- `AppUtils.py`: Extracts features from APK files  
+- `PairwiseAnalysisUtils.py`: Computes similarity scores between app versions
+
+These notebooks rely on the aforementioned utilities and can be executed in sequence to reproduce the analysis. While some large datasets (such as APK files or raw privacy policy contents) are not included due to storage limitations, the code fully supports reproducing the necessary data if you have access.
+
+> 📌 Make sure the `.env` file is correctly configured with your AndroZoo API key and the path to the third-party libraries list.
